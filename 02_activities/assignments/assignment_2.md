@@ -10,22 +10,57 @@
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
-      Your answer...
+    1. A good Visualization
+       https://public.tableau.com/app/profile/sonali.babar/viz/WOWsubmissioninCalendarYear/WOWSubmissionTracker
 
+       Intuitive Calendar Layout
+       It leverages the familiar calendar format to track daily or weekly submissions, making it easy to discern submission frequency and identify activity patterns at a glance.
 
+       Effective Use of Color
+       The chart uses a sequential or diverging color palette to represent varying submission volumes, which highlights high and low activity clearly—communicating urgency at a glance and guiding attention to outliers.
 
+       Time-Based Clarity
+       By arranging data in calendar form, the viz emphasizes temporal trends (e.g. seasonality, weekly cycles) and highlights days or weeks of peak activity—helping users plan or intervene effectively.
 
+       Compact, Detailed Overview
+       The circular, concentric presentation packs a lot of information—multiple weeks and months—in a compact space, allowing the user to compare across time spans without scrolling or jumping between charts.
+
+       High Visual Hierarchy
+       Central focus and supporting labels around the edges create a clear visual hierarchy. You quickly see key metrics or periods, while secondary details are easily accessible without cluttering the main view.
+
+       Minimalist, Clean Design
+       No unnecessary gridlines, legends, or distracting elements—the minimalist design ensures data shines through. Hover tooltips likely reveal granular data, keeping the interface simple yet informative.
+
+       Analytical Power
+       It supports both overview insights (e.g. busiest periods) and drill-down capabilities (e.g. clicking a specific segment to inspect submissions), striking a great balance between breadth and depth.
+
+    2. A bad visualization in my understanding
+       https://public.tableau.com/app/profile/arjen.groeneveld/viz/24healthstatsfeb25/Dashboard1
+
+       Overwhelming Visual Density
+       The dashboard comprises many charts and metrics crammed together. While rich in information, this density can overwhelm users and hide key insights.
+
+       Limited Focussed
+       The layout appears as a collection of standalone charts, lacking a clear narrative flow or guided path of analysis
+
+       Inconsistent Visual Encoding
+       Some charts use different color schemes, chart types, or scales that don’t align well. This inconsistency may confuse viewers and reduce interpretability. Eg. The representation of workouts.
+
+       Navigation & Drill‑down Missing
+       Though the visualtion has tool tip text, which is highlighting few details, But the dashboard doesn’t seem to support drill-downs or interactivity, which limits exploration—e.g., clicking a bar and see how each other elements are affected by it.
 
 
 
       ```
     - How could this data visualization have been improved?  
-      ```
-      Your answer...
+      Simplify the Layout
+      Group related visuals into themed sections. Declutter and remove non-essential elements, minimize gridlines and borders
 
+      Add Benchmarks and Trend Indicators
+      Overlay target lines or shaded bands on charts to signal threshold performance.
 
-
-
+      Enhance Interactivity & Drill‑Down
+      Add filter, parameter, or highlight actions that allow drilling into element, or time periods. Provide ability to unselect selections.
 
 
       
