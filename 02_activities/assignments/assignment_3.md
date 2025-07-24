@@ -8,22 +8,35 @@
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 - For each visualization, describe and justify: 
     > What software did you use to create your data visualization?
+      ***I have used the Building asset Inventory dataset and Python to create an api connection to the dataset along with packages like matplotlib to generate the visualization.***
+
+      ***I have downloaded the csv file and used excel to interpret and create visualization, I have primarily focussed on management, with an assumption that the management is directly associated with Building Type and Jurisdiction.***
 
     > Who is your intended audience? 
+      ***This analysis has been conducted with city management as the intended audience.***
     
     > What information or message are you trying to convey with your visualization? 
+      ***This analysis has been conducted with city management as the intended audience, with the primary objective of identifying regions that may require additional resource allocation.***
     
     > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots? 
+      ***This analysis has been conducted with city management as the intended audience, with the primary objective of identifying regions that may require additional resource allocation. It is important to note that the current visualization has certain limitations, as it does not account for population counts within each region. Consequently, the results should be interpreted with caution, and further refinement of the analysis—incorporating population data—is recommended to ensure a more accurate assessment of regional needs.***
     
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
+      ***For the purpose of data visualization in Python, I have utilized an API that retrieves data directly from the original source. This approach ensures that the data remains stable and is less prone to unexpected changes. As a result, the code can be executed by any user, promoting reproducibility and consistency in the generated visualizations across different runs. To support transparency and ease of access, I have attached both the Excel file and the corresponding Jupyter Notebook (.ipynb) file to the project branch for reference.***
+
+      ***For the visualization, I have used an Excel file containing the required dataset. As the analysis is based on a static file, the visualizations remain consistent each time the file is used, ensuring repeatability and uniformity in the results.***
     
-    > How did you ensure that your data visualization is accessible?  
+    > How did you ensure that your data visualization is accessible?
+      ***I have made an effort to utilize publicly available data sources, thereby eliminating the need for user authentication or access validation. Additionally, I have created an Excel copy of the dataset, which can be stored locally and accessed by any user, further supporting ease of use and broad accessibility.***  
     
     > Who are the individuals and communities who might be impacted by your visualization?  
+      ***Both city management and local communities will be able to analyze the distribution of various building types within their respective regions. This information can serve as a basis for informed discussions between city management, municipal authorities, and community members. Such dialogue can help identify areas that may require additional efforts or interventions to enhance the overall quality of living within each community***
     
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+      ***The idea was to analysis and identify the various types of building management and building classifications present in each region. Accordingly, the primary columns selected for analysis were City and Building Type. It was further assumed that each city should have an associated management body responsible for overseeing such buildings. Based on this assumption, the focus shifted to the Management attribute, under the premise that each management entity would be directly linked to a specific building type.  ***
     
     > What ‘underwater labour’ contributed to your final data visualization product?
+      ***A significant amount of foundational work—often not visible in the final output—contributed to the development of the data visualization. This included identifying appropriate and publicly accessible data sources, cleaning and structuring the data for consistency, handling missing or ambiguous entries, and making assumptions where necessary (e.g., linking building types with management bodies). Additionally, attention was given to selecting the most relevant attributes for analysis, ensuring reproducibility by using static or API-based data sources, and designing visual outputs that would be intuitive and informative for both city management and community stakeholders.***
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
